@@ -2,6 +2,8 @@ package ex;
 
 public class alumno {
 String nombre;
+int edad;
+int dinero;
 public String getNombre() {
 	return nombre;
 }
@@ -14,6 +16,8 @@ public int getEdad() {
 public void setEdad(int edad) {
 	this.edad = edad;
 }
-int edad;
+public void getdinero(int dinero) {
+	this.dinero = dinero;
+}
 }
 
